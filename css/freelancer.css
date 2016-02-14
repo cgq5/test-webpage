@@ -149,8 +149,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18bc9c;
-  color: white;
+  background: #fcf3cf ;
+  color: black;
 }
 section.success a,
 section.success a:hover,
