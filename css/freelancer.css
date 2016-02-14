@@ -68,9 +68,12 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
-  text-align: center;
-  background: #18bc9c;
-  color: white;
+    background-image: url('../img/bg2.jpg');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    text-align: center;
+    color: white;
 }
 header .container {
   padding-top: 100px;
