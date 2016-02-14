@@ -171,6 +171,10 @@ section.success a.active {
   color: #2c3e50;
   outline: none;
 }
+section.primary{
+  background: white;
+  color: black;
+}
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
