@@ -31,6 +31,14 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+hr {
+    border-color: #f05f40;
+    border-width: 3px;
+    max-width: 50px;
+}
+hr.light {
+    border-color: white;
+}
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -61,7 +69,7 @@ hr.star-primary {
   border-color: #2c3e50;
 }
 hr.star-primary:after {
-  background-color: white;
+  background-color: transparent;
   color: #2c3e50;
 }
 .img-centered {
@@ -182,7 +190,7 @@ section.success a.active {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background-color: #112667;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -299,7 +307,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #112667;
+  background-color: #000000;
 }
 .btn-social {
   display: inline-block;
